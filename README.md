@@ -3,7 +3,7 @@ Retrieval-Augmented Generation (RAG) chatbot for answering medical queries using
 #Demo
 
 
-#Features
+# Features
 - Extracts text from medical PDF documents
 - Splits documents into meaningful chunks
 - Generates vector embeddings using Hugging Face models
@@ -38,7 +38,7 @@ Retrieval-Augmented Generation (RAG) chatbot for answering medical queries using
 
 ---
 
-# ⚙️ Installation & Setup
+# Installation & Setup
 
 ## 1. Clone Repository
 
@@ -46,16 +46,56 @@ Retrieval-Augmented Generation (RAG) chatbot for answering medical queries using
 git clone https://github.com/your-username/medical-rag-chatbot.git
 
 ```
-Navigate into the project
+## 2. Navigate into the project
+
+```bash
 cd medical-rag-chatbot
-
-## 2. Create Virtual Environment
-
+```
+## 3. Create Virtual Environment
 
 ```bash
 py -3.10 -m venv myenv
 
 ```
+## 4. Activate Virtual Environment
+
+### Windows
+```bash
+venv\Scripts\activate
+
+```
+### Linux/Mac
+```bash
+source venv/bin/activate
+```
+## 5. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+#  Environment Variables
+
+## Create a `.env` file in the root directory
+
+```env
+PINECONE_API_KEY=your_pinecone_api_key
+GROQ_API_KEY=your_groq_api_key
+```
+# Running the Application 
+
+```bash
+# run the following command to store embeddings to pinecone
+python store_index.py
+```
+
+```bash
+# Finally run the following command
+python app.py
+```
+### The aplication will run at http://localhost:5000
+
+
+
 
 
 
