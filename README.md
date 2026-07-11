@@ -1,9 +1,12 @@
+
+
+
 # medical-rag-chatbot
 Retrieval-Augmented Generation (RAG) chatbot for answering medical queries using LangChain, Pinecone Vector Database, Hugging Face embeddings, and Groq LLMs.
 
 
 # Demo
-![video](https://github.com/jee-van-kumar/medical-rag-chatbot/blob/main/demo.mp4)
+https://github.com/user-attachments/assets/9eec4309-94c3-468f-ac0d-0045470db690
 
 
 # Features
