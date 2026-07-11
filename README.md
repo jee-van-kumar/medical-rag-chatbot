@@ -3,7 +3,7 @@ Retrieval-Augmented Generation (RAG) chatbot for answering medical queries using
 
 
 # Demo
-![Demo Video](https://github.com/jee-van-kumar/medical-rag-chatbot/blob/main/demo.mp4)
+![video](https://github.com/jee-van-kumar/medical-rag-chatbot/blob/main/demo.mp4)
 
 
 # Features
