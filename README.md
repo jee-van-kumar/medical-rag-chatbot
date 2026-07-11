@@ -43,7 +43,7 @@ Retrieval-Augmented Generation (RAG) chatbot for answering medical queries using
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/medical-rag-chatbot.git
+git clone https://github.com/jee-van-kumar/medical-rag-chatbot.git
 
 ```
 ## 2. Navigate into the project
